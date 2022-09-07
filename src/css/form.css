@@ -1,0 +1,149 @@
+.wrapper-form{
+    margin-top: 275px;
+    margin-left: 5px;
+    width: 381px;
+}
+.label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #1B1320;
+}
+.input{
+    padding-left: 17px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #EAEAEA;
+    margin-top: 9px;
+    margin-bottom: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    outline: none;
+}
+.input::placeholder{
+    color: #CCCACD;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.width-80{
+    width: 140px;
+}
+.width-191{
+    width: 171px;
+}
+.width-381{
+    width: 361px;
+}
+.button{
+    width: 381px;
+    height: 53px;
+    border-radius: 10px;
+    background-color: #220930;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    margin-top: 29px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover{
+    background-color: #EAEAEA;
+    color: #220930;
+}
+.date-cvc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.error{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #AF7271;
+    margin-top: 10px;
+}
+@media(max-width: 1279px){
+    .wrapper-form{
+        margin-top: 234px;
+        max-width: 339px;
+        margin-left: -49px;
+
+    }
+    .label{
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.15em;
+    }
+    .input{
+        padding-left: 15px;
+        height: 45px;
+        border-radius: 8px;
+        margin-top: 6px;
+        margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .margin-left-10{
+        margin-left: 8px;
+    }
+    .width-80{
+        width: 130px;
+    }
+    .width-191{
+        width: 155px;
+    }
+    .width-381{
+        width: 324px;
+    }
+    .button{
+        width: 339px;
+        height: 47px;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 1150px){
+    .wrapper-form{
+        margin-top: 180px;
+        margin-left: -45px;
+    }
+    .input{
+        margin-top: 5px;
+        margin-bottom: 16px;
+    }
+    .button{
+        margin-top: 18px;
+    }
+    .width-80{
+        width: 138px;
+    }
+    .width-191{
+        width: 150px;
+    }
+    .date-cvc{
+        gap: 20px;
+    }
+}
+@media(max-width: 1023px){
+    .wrapper-form{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .width-80{
+        width: 136px;
+    }
+    .width-191{
+        width: 150px;
+    }
+}
+@media(max-width: 767px){}

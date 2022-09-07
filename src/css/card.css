@@ -1,0 +1,102 @@
+.wrapper-card{
+    background-image: url(../images/bg-card-front.png);
+    background-size: cover;
+    width: 447px;
+    height: 245px;
+}
+.logocard{
+    margin: 28px 0 64px 32px;
+}
+.number-card{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0.12em;
+    color: #fff;
+    margin: 0 0 26px 32px;
+}
+.data-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 33px 0 32px;
+}
+.date-card{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.14em;
+    color: #fff;    
+}
+@media(max-width: 1279px){
+    .wrapper-card{
+        width: 397px;
+        height: 218px;
+    }
+    .logocard{
+        margin: 25px 0 56px 28px;
+        height: 43px;
+    }
+    .number-card{
+        font-size: 25px;
+        line-height: 25px;
+        margin: 0 0 23px 28px;
+    }
+    .data-card{
+        margin: 0 33px 0 28px;
+    }
+    .date-card{
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.14em;
+    }
+}
+@media(max-width: 1150px){
+    .wrapper-card{
+        width: 319px;
+        height: 175px;
+    }
+    .logocard{
+        margin: 20px 0 45px 23px;
+        height: 34px;
+    }
+    .number-card{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0 0 18px 23px;
+    }
+    .data-card{
+        margin: 0 33px 0 23px;
+    }
+    .date-card{
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 0.13em;
+    }
+}
+@media(max-width: 767px){
+    .wrapper-card{
+        width: 286px;
+        height: 157px;
+    }
+    .logocard{
+        margin: 18px 0 36px 20px;
+        height: 31px;
+    }
+    .number-card{
+        font-size: 18px;
+        line-height: 0;
+        margin: 0 0 16px 20px;
+    }
+    .data-card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 22px 0 20px;
+    }
+    .date-card{
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: 0.07em;
+    }
+}
